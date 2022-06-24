@@ -185,9 +185,8 @@ img{
   font-weight: var(--font-medium);
 }
 .nav__logo{
-  font-size: 25px
+    font-size: 20px;
 }
-
 .nav__logo:hover{
   color: var(--first-color);
 }
@@ -288,6 +287,22 @@ img{
   background-color: var(--first-color-alt);
 }
 
+.sButton{
+  display: inline-block;
+  margin-top: 20px;
+  background-color: var(--first-color);
+  color: #FFF;
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  transition: .3s;
+  font-size: 1rem;
+  border: none;
+}
+.sButton:hover{
+  background-color: var(--first-color-alt);
+  cursor: pointer;
+}
+
 /*========== ABOUT ==========*/
 .about__data{
   text-align: center;
@@ -298,8 +313,7 @@ img{
 }
 
 .about__img{
-  width: 280px;
-  border-radius: .5rem;
+  width: 5rem;
   justify-self: center;
 }
 
@@ -466,8 +480,7 @@ img{
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px){
   .home__container,
-  .about__container,
-  .app__container{
+  .about__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
   }
@@ -479,7 +492,7 @@ img{
   }
 
   .about__img, .app__img{
-    width: 380px;
+    width: 320px;
     order: -1;
   }
 
