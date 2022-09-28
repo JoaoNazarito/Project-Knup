@@ -14,6 +14,8 @@
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
+        
+
         <title>LWM AUTO ATACADO</title>
     </head>
     <body>
@@ -27,16 +29,15 @@
         <header class="l-header" id="header">
             <nav class="nav bd-container">
                <!-- <img src="/assets/img/LWM.png" alt="" class="nav_logo">-->
-              <a href="#" class="nav__logo">LWM AUTO ATACADO</a>
+              <a href="#" class="nav__logo"><img src="/assets/img/LWM.png" alt=""></a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">Sobre a LWM</a></li>
-                        <li class="nav__item"><a href="#services" class="nav__link">Serviços</a></li>
-                        <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li> 
+                        <li class="nav__item"><a href="#services" class="nav__link">Serviços e Processos</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Especial</a></li> 
                         <li class="nav__item"><a href="#contact" class="nav__link">Vamos Conversar</a></li>
-
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre a LWM</a></li>
                         <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
                     </ul>
                 </div>
@@ -52,19 +53,34 @@
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
                     <div class="home__data">
-                        <h1 class="home__title">LWM Auto Atacado</h1>
+                        <h1 class="home__title">LWM AUTO ATACADO </h1>
                         <h2 class="home__subtitle">A melhor no ramo de auto peças</h2>
-                        <!-- <a href="#" class="button">View Menu</a> -->
+                        <a href="#about" class="button">Conheça!</a>
                     </div>
     
                     <!-- <img src="assets/img/home.png" alt="" class="home__img"> -->
                 </div>
             </section>
+
+             <!--========== ABOUT ==========-->
+         <section class="about section bd-container" id="about">
+            <div class="about__container  bd-grid">
+                <div class="about__data">
+                    <!-- <span class="section-subtitle about__initial">About us</span> -->
+                    <h2 class="section-title about__initial">Sobre a LWM</h2>
+                    <p class="about__description"> A LWM é uma distribuidora de peças automotivas para veículos nacionais e importados, com parcerias das melhores marcas oferecidas no mercado, para atender as demandas de Auto Peças.</p><p>No ramo atacadista desde 1998, conta com a ajuda de colaboradores, que visam construir relacionamentos de longo prazo, tendo como base a ética profissional e o empenho de equipes no atendimento da necessidade de seu maior patrimônio, “o cliente”. </p>
+                   <!--<a href="sobre.html" class="button">Explore nossa historia</a>--> 
+                </div>
+                <img src="/assets/img/LWM.png" alt="" class="about__img">
+               <!--<img src="https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="about__img">--> 
+            </div>
+        </section>
+
         
             <!--========== SERVICES ==========-->
             <section class="services section bd-container" id="services">
                 <!-- <span class="section-subtitle">Offering</span> -->
-                <h2 class="section-title">Serviços</h2>
+                <h2 class="section-title">Serviços e Processos</h2>
 
                 <div class="services__container  bd-grid">
                     <div class="services__content">
@@ -92,31 +108,52 @@
 
             <!--========== MENU ==========-->
              <section class="menu section bd-container" id="menu">
-                 <span class="section-subtitle">Special</span> 
-                <h2 class="section-title">Peças em promoção</h2>
+                 <span class="section-subtitle">Especial</span> 
+                <h2 class="section-title">Vendedores</h2>
 
                 <div class="menu__container bd-grid">
                     <div class="menu__content">
                         <img src="assets/img/plate1.png" alt="" class="menu__img">
-                        <h3 class="menu__name">Barbecue salad</h3>
-                        <span class="menu__detail">Delicious dish</span>
-                        <span class="menu__preci">$22.00</span>
+                        <h3 class="menu__name">Eduardo</h3>
+                        <span class="menu__detail">Entre em contato</span> 
+                        <!--<span class="menu__preci">$9.50</span>-->
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                    <div class="menu__content">
+                        <img src="assets/img/plate1.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Emerson</h3>
+                        <span class="menu__detail">Entre em contato</span>
+                        <!--<span class="menu__preci">$9.50</span>-->
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                    <div class="menu__content">
+                        <img src="assets/img/plate1.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Andrey</h3>
+                        <span class="menu__detail">Entre em contato</span>
+                        <!--<span class="menu__preci">$9.50</span>-->
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                    <div class="menu__content">
+                        <img src="assets/img/plate1.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Soline</h3>
+                        <span class="menu__detail">Entre em contato</span>
+                        <!--<span class="menu__preci">$9.50</span>-->
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/plate2.png" alt="" class="menu__img">
-                        <h3 class="menu__name">Salad with fish</h3>
-                        <span class="menu__detail">Delicious dish</span>
-                        <span class="menu__preci">$12.00</span>
+                        <h3 class="menu__name">Roberto</h3>
+                        <span class="menu__detail">Entre em contato</span>
+                        <!--<span class="menu__preci">$9.50</span>-->
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
                     
                     <div class="menu__content">
                         <img src="assets/img/plate3.png" alt="" class="menu__img">
-                        <h3 class="menu__name">Spinach salad</h3>
-                        <span class="menu__detail">Delicious dish</span>
-                        <span class="menu__preci">$9.50</span>
+                        <h3 class="menu__name">Marcelo</h3>
+                        <span class="menu__detail">Entre em contato</span> 
+                        <!--<span class="menu__preci">$9.50</span>--> 
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
                 </div>
@@ -128,7 +165,7 @@
                     <div class="app__data">
                         <span class="section-subtitle app__initial">Fornecedores</span>
                         <h2 class="section-title app__initial">Nossos Fornecedores</h2>
-                        <p class="app__description">Find our application and download it, you can make reservations, food orders, see your deliveries on the way and much more.</p>
+                        <p class="app__description">Esses são alguns de nosssos fornecedores.</p>
                         <div class="app__stores">
                             <a href="#"><img src="assets/img/kayaba.png" alt="" class="app__store"></a>
                             <a href="#"><img src="assets/img/loctite.png" alt="" class="app__store"></a>
@@ -157,7 +194,7 @@
                     <div class="contact__data">
                         <span class="section-subtitle contact__initial">Vamos Conversar</span>
                         <h2 class="section-title contact__initial">Entre em contato</h2>
-                        <p class="contact__description">Caso você queira fazer um orçamento entre em contato pelas redes sociais ou pelo Whatsapp</p>
+                        <p class="contact__description">Caso você queira fazer um orçamento entre em contato pelo Whatsapp</p>
                     </div>
 
                     <div class="contact__button">
@@ -166,35 +203,22 @@
                 </div>
             </section>
         </main>
-         <!--========== ABOUT ==========-->
-         <section class="about section bd-container" id="about">
-            <div class="about__container  bd-grid">
-                <div class="about__data">
-                    <!-- <span class="section-subtitle about__initial">About us</span> -->
-                    <h2 class="section-title about__initial">Sobre a LWM</h2>
-                    <p class="about__description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quis quasi nulla deserunt molestiae aspernatur! Ratione placeat optio iste enim dolor suscipit maiores dolores reiciendis explicabo quasi, non similique consequatur? </p>
-                    <a href="sobre.html" class="button">Explore nossa historia</a>
-                </div>
-                <img src="/assets/img/LWM.png" alt="" class="about__img">
-               <!--<img src="https://images.pexels.com/photos/834863/pexels-photo-834863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="about__img">--> 
-            </div>
-        </section>
-
+        
         <!--========== FOOTER ==========-->
         <footer class="footer section bd-container">
             <div class="footer__container bd-grid">
                 <div class="footer__content">
-                    <a href="#" class="footer__logo">LWM Auto Atacado </a>
-                    <span class="footer__description">LTDA</span>
+                    <a href="#" class="footer__logo">LWM AUTO ATACADO LTDA </a>
+                    <span class="footer__description"> Auto Peças </span>
                     <div>
-                        <a href="https://www.facebook.com/renata.lara.399" class="footer__social" target="blank"><i class='bx bxl-facebook'></i></a>
-                        <a href="https://www.instagram.com/renatacpsi/" class="footer__social" target="blank"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social" target="blank"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social" target="blank"><i class='bx bxl-instagram'></i></a>
                         <!-- <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a> -->
                     </div>
                 </div>
 
                 <div class="footer__content">
-                    <h3 class="footer__title">Serviços</h3>
+                    <h3 class="footer__title">Serviços e Processos</h3>
                     <ul>
                         <li><a href="#services" class="footer__link">Venda de auto peças</a></li>
                         <li><a href="#services" class="footer__link">Devolução</a></li>
@@ -219,7 +243,7 @@
                         <li>Rua Campos sales,</li>
                         <li>166</li>
                         <li>(031) 3379-8800</li>
-                        <li>lwm@lwmatacado.com.br</li>
+                        <li>contato@lwmatacado.com.br</li>
                     </ul>
                 </div>
             </div>
