@@ -186,7 +186,7 @@ img{
   font-weight: var(--font-medium);
 }
 .nav__logo{
-    width: 4rem;
+    width: 3rem;
     align-items: center;
     margin: auto 0;
 }
@@ -497,7 +497,6 @@ img{
   }
   .nav__logo{
     width: 3rem;
-    background-color: #00ff4c;
   }
 
   .contact__container{
@@ -523,7 +522,6 @@ img{
   }
   .nav__logo{
     width: 3rem;
-    background-color: yellow;
   }
   .nav__list{
     display: flex;
@@ -582,8 +580,7 @@ img{
     column-gap: 7rem;
   }
   .nav__logo{
-    width: 2.2rem;
-    background-color: purple;
+    width: 3rem;
   }
 }
 
@@ -594,6 +591,5 @@ img{
     }
     .nav__logo{
       width: 2rem;
-      background-color: green;
     }
 }
