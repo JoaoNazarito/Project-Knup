@@ -93,7 +93,7 @@ themeButton.addEventListener('click', () => {
 const sr = ScrollReveal({
     origin: 'left',
     distance: '30px',
-    duration: 800,
+    duration: 750,
     reset: false
 });
 
@@ -101,6 +101,6 @@ sr.reveal(`.home__data, .home__img,
             .about__data, .about__img,
             .services__content, .menu__content,
             .app__data, .app__img,
-            .contact__data, .contact__button`, {
+            .contact__data, .contact__button,`, {
     interval: 200
 })
