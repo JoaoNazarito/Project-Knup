@@ -627,7 +627,7 @@ img{
     column-gap: 7rem;
   }
   .nav__logo{
-    width: 3rem;
+    width: 4rem;
   }
 }
 
@@ -637,6 +637,6 @@ img{
         height: 640px;
     }
     .nav__logo{
-      width: 3rem;
+      width: 4rem;
     }
 }
