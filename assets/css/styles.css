@@ -250,8 +250,15 @@ img{
   bottom: 1.5rem;
 }
 /*========== teste ==========*/
+
+.approv{ 
+  overflow-x: hidden;
+}
+
 .hero{
-  height: 80vh;
+ 
+  width: 100vw;
+  height: 100vh;
   padding: 40px 20px;
   text-align: center;
   display: flex;
