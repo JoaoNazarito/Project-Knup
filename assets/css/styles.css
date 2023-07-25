@@ -504,6 +504,9 @@ img{
   color: var(--title-color);
   margin-bottom: var(--mb-2);
 }
+.tel{
+  color: var(--text-color);
+}
 
 .footer__link{
   display: inline-block;
