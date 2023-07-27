@@ -494,10 +494,6 @@ img{
   width: calc(200px * 71);
   animation: scroll 30s linear infinite;
 }
-/*
-.slide-track:hover{
-  animation-play-state: paused;
-}*/
 
 @keyframes scroll {
   0%{
@@ -507,8 +503,6 @@ img{
     transform: translateX(calc(-150px * 9));
   }
 }
-
-
 
 .slide{
   height: 100px;
@@ -536,6 +530,7 @@ img{
   width: 15%;
   z-index: 2;
 }
+
 .slider::before {
   left: 0;
   top: 0;
