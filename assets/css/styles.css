@@ -481,18 +481,19 @@ img{
 
 /*========== SLIDER teste ==========*/
 .slider{
-  height: 140px;
-  margin: auto;
+  height: 200px;
+  margin: 4rem auto;
   position: relative;
-  width: 90%;
+  width: 100%;
   display: grid;
   place-items: center;
   overflow: hidden;
+  background-color: white;
 }
 .slide-track{
   display: flex;
-  width: calc(200px * 71);
-  animation: scroll 30s linear infinite;
+  width: calc(200px * 71 );
+  animation: scroll 300s linear infinite;
 }
 
 @keyframes scroll {
@@ -500,7 +501,7 @@ img{
     transform: translateX(0);
   }
   100%{
-    transform: translateX(calc(-150px * 9));
+    transform: translateX(calc(-200px * 71));
   }
 }
 
@@ -527,7 +528,7 @@ img{
   content: "";
   height: 100%;
   position: absolute;
-  width: 15%;
+  width: 6%;
   z-index: 2;
 }
 
